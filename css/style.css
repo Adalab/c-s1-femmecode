@@ -1,0 +1,67 @@
+
+/* GENERAL FOOTER */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  color: #fff;
+  background-color: #2d333a;
+}
+
+.general-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+
+.contact-info {
+  padding-top: 35px;
+  padding-bottom: 45px;
+  font-size: 1.65em;
+  font-weight: 400;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+
+/* SOCIAL ICONS AND LINKS*/
+
+.social {
+  margin-top: 40px;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.logo_size {
+  width: 13px;
+  margin: 0 10px;
+}
+
+.logo_github {
+  width: 18px;
+  margin: 0 10px;
+}
+
+/* FOOTER BOTTOM */
+
+.copyright {
+  margin: 0;
+  background-color: #262C30;
+  padding-top: 30px;
+  font-size: 0.8em;
+  color: #f2f2f2;
+  padding-left: 40px;
+  padding-bottom: 30px
+}
