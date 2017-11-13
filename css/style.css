@@ -1,5 +1,5 @@
 
-/* GENERAL FOOTER */
+/* GENERAL PAGE */
 
 * {
   box-sizing: border-box;
@@ -9,6 +9,56 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+
+/*header & navigator */
+
+header {
+      padding: 0.063em;
+      color: white;
+      background-color: #2d333a;
+      text-align: center;
+      font-family: poppins;
+    }
+    #contenedor-flexible {
+      display: flex;
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: stretch;
+      height: 3.125em;
+      width: auto;
+    }
+    .item-flex {
+      background-color: white;
+      height: 3.125em;
+      line-height: 3.125em;
+      text-align: center;
+      border-bottom: 0.063em solid #2d333a;
+      width: 12.5em;
+      font-size: 1.3em;  <!--sería h3-->
+    }
+
+    .name-link {
+      color: #2d333a;
+      text-decoration: none;
+    }
+    .name-link:hover {
+      background-color: lightgrey;
+      text-decoration: none;
+      color: #2d333a;
+      display: inline-block;
+      height: 3.125em;
+      width: 12.5em;
+    }
+    .name-link:visited {
+      color: #2d333a;
+      text-decoration: none;
+    }
+
+/* GENERAL FOOTER */
+
 
 footer {
   color: #fff;
