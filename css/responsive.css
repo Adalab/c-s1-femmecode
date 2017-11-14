@@ -1,8 +1,6 @@
 @media screen and (max-width:468px) {
 
   /* HEADER-NAVIGATION */
-
-
   header h1 {
      font-size: 2em;
   }
@@ -18,16 +16,23 @@
 
   /* DESCRIPCIÓN EQUIPO */
 
-.team_description h2 {
-  font-size: 1.35em;
-}
+  .team_description h2 {
+    font-size: 1.35em;
+  }
 
-.main-container-about h1 {
-  font-size: 1.5em;
-}
+  .main-container-about h1 {
+    font-size: 1.5em;
+  }
 
-.profile-images {
-  width: 150px;
-}
+  .profile-images {
+    width: 150px;
+  }
 
+  /* DESCRIPCIÓN INDIVIDUAL */
+  .main-container-about h3 {
+    font-size: 1.0em;
+  }
+  .main-container-about p {
+    font-size: 0.8em;
+  }
 }
