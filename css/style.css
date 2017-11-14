@@ -109,7 +109,7 @@ p{
 
 }
 
-h1 {
+.main-container-about h1 {
   font-size: 2em;
   text-align: center;
 }

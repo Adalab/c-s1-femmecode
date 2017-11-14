@@ -22,5 +22,12 @@
   font-size: 1.35em;
 }
 
+.main-container-about h1 {
+  font-size: 1.5em;
+}
+
+.profile-images {
+  width: 150px;
+}
 
 }
