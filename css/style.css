@@ -10,7 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/*header & navigator */
+/* HEADER-NAVIGATION */
 
   header {
         padding: 0.063em;
@@ -22,6 +22,7 @@ body {
 
   header h1 {
     margin-bottom: 5px;
+
   }
 
   header h2 {
@@ -80,11 +81,16 @@ body {
 
 .team_description h2 {
   font-weight: 600;
-  font-size: 2.5vw;
+  font-size: 2em;
   text-align: center;
 }
 
 /* ABOUT THE COMPONENTS */
+.main-container-about {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
 .container-about{
   max-width: 640px;
   margin: auto;
@@ -93,6 +99,9 @@ body {
   flex-wrap: wrap;
 }
 
+.container-about a {
+  text-decoration: none;
+}
 
 p{
   font-size: 0.90em
@@ -101,7 +110,7 @@ p{
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -110,7 +119,7 @@ h1 {
   width: 200px;
   border-radius: 50%;
   display: block;
-  margin:20px auto;
+  margin: 40px auto;
 }
 
 h2{
@@ -129,7 +138,10 @@ h3 {
 
 .icons-about{
   width: 30px;
-
+  fill: #A63D40;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* GENERAL FOOTER */
