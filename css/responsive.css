@@ -1,0 +1,16 @@
+@media screen and (max-width:468px) {
+
+  header h1 {
+     font-size: 2em;
+  }
+
+  header h2 {
+    font-size: 1.15em;
+  }
+
+  .item-flex {
+    font-size: 1em;
+  }
+
+
+}

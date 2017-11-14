@@ -12,24 +12,25 @@ body {
 
 /*header & navigator */
 
-header {
-      padding: 0.063em;
-      color: white;
-      background-color: #A63D40;
-      text-align: center;
-      font-family: poppins;
+  header {
+        padding: 0.063em;
+        color: white;
+        background-color: #A63D40;
+        text-align: center;
+        font-family: poppins;
+      }
+
+  header h1 {
+    margin-bottom: 5px;
+  }
+
+  header h2 {
+    background-color: #C94A4E;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
 
-header h1 {
-  margin-bottom: 5px;
-}
-
-header h2 {
-  background-color: #C94A4E;
-  margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  }
     #contenedor-flexible {
       display: flex;
       background-color: white;
@@ -41,6 +42,7 @@ header h2 {
       height: 3.125em;
       width: auto;
     }
+
     .item-flex {
       background-color: white;
       height: 3.125em;
@@ -48,7 +50,7 @@ header h2 {
       text-align: center;
       border-bottom: 0.063em solid #2d333a;
       width: 12.5em;
-      font-size: 1.3em;  <!--sería h3-->
+      font-size: 1.3em;  <!-- sería h3-->
     }
 
     .name-link {
@@ -71,18 +73,20 @@ header h2 {
 
 /* DESCRIPCIÓN EQUIPO */
 .team_description  {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin: 10% 5% ;
+  font-style: italic;
+
 }
 
 .team_description h2 {
-  font-weight: 400;
-  font-size: 1.5em;
+  font-weight: 600;
+  font-size: 2.5vw;
+  text-align: center;
 }
 
 /* ABOUT THE COMPONENTS */
 .container-about{
-  max-width: 940px;
+  max-width: 640px;
   margin: auto;
   display: flex;
   justify-content: center;
