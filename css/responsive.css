@@ -24,6 +24,9 @@
   .team_description h2 {
     font-size: 1.35em;
   }
+  .team_description p {
+    font-size: 0.8em;
+  }
 
   .main-container-about h1 {
     font-size: 1.5em;
