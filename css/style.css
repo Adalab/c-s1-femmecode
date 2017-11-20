@@ -12,64 +12,66 @@ body {
 
 /* HEADER-NAVIGATION */
 
-  header {
-        padding: 0.063em;
-        color: white;
-        background-color: #A63D40;
-        text-align: center;
-        font-family: poppins;
-      }
+header {
+  background-image: url('../img/woman-cod.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repet;
+  height: 400px;
+  padding: 5% 1%;
+  color: white;
+  text-align: center;
+  font-family: poppins;
+}
 
-  header h1 {
-    margin-bottom: 5px;
+header h1 {
+  margin-bottom: 5px;
+  font-size: 5em;
 
-  }
+}
 
-  header h2 {
-    background-color: #C94A4E;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    }
+header h2 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 2em;
+}
 
-    #contenedor-flexible {
-      display: flex;
-      background-color: white;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-items: stretch;
-      height: 3.125em;
-      width: auto;
-    }
+#contenedor-flexible {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 3.125em;
+  width: auto;
+}
 
-    .item-flex {
-      background-color: white;
-      height: 3.125em;
-      line-height: 3.125em;
-      text-align: center;
-      border-bottom: 0.063em solid #2d333a;
-      width: 12.5em;
-      font-size: 1.3em;  <!-- sería h3-->
-    }
+.item-flex {
+  background-color: white;
+  height: 3.125em;
+  line-height: 3.125em;
+  text-align: center;
+  border-bottom: 0.063em solid #2d333a;
+  width: 12.5em;
+  font-size: 1.3em;  <!-- sería h3-->
+}
 
-    .name-link {
-      color: #2d333a;
-      text-decoration: none;
-    }
-    .name-link:hover {
-      background-color: lightgrey;
-      text-decoration: none;
-      color: #2d333a;
-      display: inline-block;
-      height: 3.125em;
-      width: 12.5em;
-    }
-    .name-link:visited {
-      color: #2d333a;
-      text-decoration: none;
-    }
+.name-link {
+  color: #2d333a;
+  text-decoration: none;
+}
+.name-link:hover {
+  background-color: lightgrey;
+  text-decoration: none;
+  color: #2d333a;
+  display: inline-block;
+  height: 3.125em;
+  width: 12.5em;
+}
+.name-link:visited {
+  color: #2d333a;
+  text-decoration: none;
+}
 
 
 /* DESCRIPCIÓN EQUIPO */
@@ -194,7 +196,18 @@ footer {
 
 /* FOOTER BOTTOM */
 
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contact-info {
+  text-align: left;
+}
+
 .copyright {
+  width: 100%;
   margin: 0;
   background-color: #262C30;
   padding-top: 30px;
