@@ -103,8 +103,16 @@ header {
   text-align: center;
 }
 
+<<<<<<< HEAD
 
 /* -- ABOUT THE COMPONENTS -- */
+=======
+.team_description p {
+  font-size: 1.25em;
+}
+
+/* ABOUT THE COMPONENTS */
+>>>>>>> 518048fadeb1d10122fa758e29dd1ba160ade6c1
 .main-container-about {
   margin-left: 2.5%;
   margin-right: 2.5%;
