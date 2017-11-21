@@ -10,39 +10,45 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* HEADER-NAVIGATION */
+
+/* --  HEADER -- */
 
 header {
   background-image: url('../img/woman-cod.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repet;
+  background-repeat: no-repeat;
   width: 100%;
   height: 400px;
-  padding: 5% 1%;
+  padding: 5% 2%;
   color: white;
   text-align: center;
-  font-family: poppins;
 }
 
-header h1 {
-  margin-bottom: 5px;
+.h1-header {
+  margin-top: 40px;
+  margin-bottom: 0;
   font-size: 5em;
 }
 
-header h2 {
+.h2-header {
   margin: 0;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   font-size: 2em;
 }
 
-
-h1-header,
-h2-header {
+.h1-header,
+.h2-header {
   width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+
+/* --  NAVIGATION -- */
+
+>>>>>>> cb71a344d57ab0a8478cf37a248c0347b9926e37
 #contenedor-flexible {
   background-color: white;
   display: flex;
@@ -59,14 +65,19 @@ h2-header {
   text-align: center;
   border-bottom: 0.063em solid #2d333a;
   width: 12.5em;
-  font-size: 1.3em;  <!-- sería h3-->
+  font-size: 1.3em;
 }
+
 
 .name-link {
   color: #2d333a;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cb71a344d57ab0a8478cf37a248c0347b9926e37
 .name-link:hover {
   background-color: lightgrey;
   text-decoration: none;
@@ -76,16 +87,30 @@ h2-header {
   width: 12.5em;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cb71a344d57ab0a8478cf37a248c0347b9926e37
 .name-link:visited {
   color: #2d333a;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* DESCRIPCIÓN EQUIPO */
+=======
+
+/* -- TEAM DESCRIPTION -- */
+>>>>>>> cb71a344d57ab0a8478cf37a248c0347b9926e37
 .team_description  {
-  margin: 10% 5% ;
+  margin: 10% auto;
   font-style: italic;
+<<<<<<< HEAD
+=======
+  width: 70%;
+>>>>>>> cb71a344d57ab0a8478cf37a248c0347b9926e37
 }
+
 
 .team_description h2 {
   font-weight: 600;
@@ -93,11 +118,16 @@ h2-header {
   text-align: center;
 }
 
+<<<<<<< HEAD
+
+/* -- ABOUT THE COMPONENTS -- */
+=======
 .team_description p {
   font-size: 1.25em;
 }
 
 /* ABOUT THE COMPONENTS */
+>>>>>>> 518048fadeb1d10122fa758e29dd1ba160ade6c1
 .main-container-about {
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -115,8 +145,14 @@ h2-header {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 p {
   font-size: 0.90em
+=======
+
+p{
+  font-size: 0.90em;
+>>>>>>> cb71a344d57ab0a8478cf37a248c0347b9926e37
   text-align: center;
 }
 
