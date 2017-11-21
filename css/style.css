@@ -10,42 +10,37 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-
-/* --  HEADER -- */
+/* HEADER-NAVIGATION */
 
 header {
   background-image: url('../img/woman-cod.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repet;
   width: 100%;
   height: 400px;
-  padding: 5% 2%;
+  padding: 5% 1%;
   color: white;
   text-align: center;
+  font-family: poppins;
 }
 
-.h1-header {
-  margin-top: 40px;
-  margin-bottom: 0;
+header h1 {
+  margin-bottom: 5px;
   font-size: 5em;
-
 }
 
-.h2-header {
+header h2 {
   margin: 0;
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   font-size: 2em;
 }
 
-.h1-header,
-.h2-header {
+h1-header,
+h2-header {
   width: 100%;
 }
-
-
-/* --  NAVIGATION -- */
 
 #contenedor-flexible {
   background-color: white;
@@ -63,39 +58,32 @@ header {
   text-align: center;
   border-bottom: 0.063em solid #2d333a;
   width: 12.5em;
-  font-size: 1.3em;
+  font-size: 1.3em;  <!-- sería h3-->
 }
-
 
 .name-link {
-  color: #2d333a;
+  color: black;
   text-decoration: none;
 }
-
 
 .name-link:hover {
   background-color: lightgrey;
   text-decoration: none;
-  color: #2d333a;
+  color: black;
   display: inline-block;
   height: 3.125em;
   width: 12.5em;
 }
-
-
 .name-link:visited {
-  color: #2d333a;
+  color: black;
   text-decoration: none;
 }
 
-
-/* -- TEAM DESCRIPTION -- */
+/* DESCRIPCIÓN EQUIPO */
 .team_description  {
-  margin: 10% auto;
+  margin: 10% 5% ;
   font-style: italic;
-  width: 70%;
 }
-
 
 .team_description h2 {
   font-weight: 600;
@@ -103,9 +91,14 @@ header {
   text-align: center;
 }
 
-
-/* -- ABOUT THE COMPONENTS -- */
 .team_description p {
+  font-size: 1.25em;
+}
+
+/*HABILIDADES*/
+
+.habilidades {
+  margin: 10% 5% ;
   font-size: 1.25em;
 }
 
@@ -127,9 +120,8 @@ header {
   text-decoration: none;
 }
 
-
 p{
-  font-size: 0.90em;
+  font-size: 0.90em
   text-align: center;
 }
 
@@ -138,7 +130,6 @@ p{
   text-align: center;
 }
 
-
 .profile-images {
   width: 200px;
   border-radius: 50%;
@@ -146,10 +137,9 @@ p{
   margin: 40px auto;
 }
 
-h2{
+h2 {
   font-size: 1.5em;
   text-align: center;
-
 }
 
 
@@ -160,7 +150,7 @@ h3 {
   text-align: center;
 }
 
-.icons-about{
+.icons-about {
   width: 30px;
   fill: #A63D40;
   margin-right: 10px;
